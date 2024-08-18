@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Sanjay",
+    "email": "sanjay@example.com",
+    "courses": ["MERN", "MEAN"],
+    "students": 25
+  },
+  {
+    "name": "Manikandan",
+    "email": "mani@example.com",
+    "courses": ["MERN", "MEAN"],
+    "students": 10
+  }
+]
