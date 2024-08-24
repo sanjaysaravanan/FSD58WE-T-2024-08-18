@@ -34,3 +34,32 @@ db.students.find({}, {}, { sort: { name: 1 } });
 
 // Sort the students based on the marks in each subject
 db.students.find().sort({ subject: 1, marks: -1 });
+
+// find compnay drives with students
+db.companyDrive.find({}, { _id: 0 });
+/* 
+
+[
+  {
+    "company": "TCS",
+    "date": "2020-10-25",
+    "students": ["sam@example.com"]
+  },
+  {
+    "company": "TCS",
+    "date": "2023-10-02",
+    "students": ["sam@example.com"]
+  },
+  {
+    "company": "TCS",
+    "date": "2020-10-22",
+    "students": ["sam@example.com"]
+  },
+  {
+    "company": "TCS",
+    "date": "2023-10-02",
+    "students": ["sam@example.com"]
+  }
+]
+
+*/
